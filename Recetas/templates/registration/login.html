@@ -1,0 +1,8 @@
+<h2>Iniciar sesion</h2>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'clientes/style_login.css' %}">
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p}}
+    <button type="submit" > Iniciar Sesion </button>
+</form>

@@ -1,0 +1,7 @@
+dj_database_url==2.3.0
+Django==5.1.4
+reportlab==4.2.5
+gunicorn
+psycopg2-binary==2.9.10
+pillow==11.0.0
+whitenoise==6.8.2
